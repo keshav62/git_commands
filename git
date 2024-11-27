@@ -1,0 +1,64 @@
+Initialize a New Repository:
+
+sh
+git init
+This command initializes a new Git repository in the current directory.
+
+Clone a Repository:
+
+sh
+git clone <repository-url>
+Use this to create a local copy of a remote repository.
+
+Check Status:
+
+sh
+git status
+This shows the status of changes in the working directory and staging area.
+
+Add Files to Staging Area:
+
+sh
+git add <file-name>
+To add specific files:
+
+sh
+git add .
+To add all files:
+
+sh
+git add -A
+Commit Changes:
+
+sh
+git commit -m "Your commit message"
+This records changes to the repository with a descriptive message.
+
+View Commit History:
+
+sh
+git log
+Create a New Branch:
+
+sh
+git branch <branch-name>
+Switch to a Branch:
+
+sh
+git checkout <branch-name>
+Merge a Branch:
+
+sh
+git merge <branch-name>
+Pull Updates from Remote Repository:
+
+sh
+git pull
+Push Changes to Remote Repository:
+
+sh
+git push origin <branch-name>
+Delete a Branch:
+
+sh
+git branch -d <branch-name>
